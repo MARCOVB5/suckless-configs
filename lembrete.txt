@@ -1,0 +1,7 @@
+lembrar:
+
+	sudo make clean install
+
+	colocar em ~/.xinitrc :
+		slstatus &
+		exec dwm
